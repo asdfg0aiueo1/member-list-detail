@@ -1,0 +1,1098 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    /* 名簿詳細（改良版）１ */
+position: relative;
+width: 1046px;
+height: 726px;
+margin: 0 auto;
+background: #FFFFFF;
+border-radius: 16px;
+}
+
+.frame-1 {
+    /* Frame 43 */
+width: 100%;
+height: 64px;
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 16px 16px 0px 0px;
+}
+
+.text {
+    /* 会員名簿詳細 */
+
+
+position: absolute;
+width: 120px;
+height: 28px;
+left: calc(50% - 120px/2);
+top: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+}
+
+.frame-2 {
+    /* × */
+    position: absolute;
+    top: 10px;
+    bottom: ;
+    right: 30px;
+    left: ;
+width: 20px;
+height: 20px;
+font-size: 30px;
+color: #FFFFFF;
+}
+
+.frame-3 {
+    /* Frame 1047 */
+
+
+position: absolute;
+width: 320px;
+height: 440px;
+left: 32px;
+top: 96px;
+
+background: #E13A3A;
+border-radius: 4px;
+}
+
+.frame-3 img {
+    /* young-asian-female-doctor-on-grey 1 */
+width: 100%;
+height: 100%;
+background: url(young-asian-female-doctor-on-grey.jpg);
+}
+
+.frame-4 {
+    /* Frame 137 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: flex-end;
+padding: 4px 16px;
+gap: 4px;
+
+position: absolute;
+width: 320px;
+height: 108px;
+left: 32px;
+top: 552px;
+
+background: #FFFFFF;
+border: 1px solid #999999;
+border-radius: 16px;
+}
+
+.text-1 {
+    /* こんにちは！よろしくおねがいします。ああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああああ */
+
+
+width: 272px;
+height: 100px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.text-2 {
+    /* 〇〇支部 */
+
+
+position: absolute;
+width: 96px;
+height: 34px;
+left: 384px;
+top: 96px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-3 {
+    /* 会長 */
+
+
+position: absolute;
+width: 48px;
+height: 34px;
+left: 512px;
+top: 96px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+.group {
+    /* Group 1049 */
+
+
+position: absolute;
+width: 237px;
+height: 56px;
+left: 384px;
+top: 146px;
+}
+
+.frame-5 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 16px;
+gap: 10px;
+width: 68px;
+height: 49px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-4 {
+    /* 内科医 */
+
+
+width: 36px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-1 {
+    /* Group 1043 */
+
+
+position: absolute;
+width: 152px;
+height: 56px;
+top: 0px;
+bottom: ;
+right: ;
+left: 150px;
+display: flex;
+}
+
+.block {
+    display: flex;
+}
+.text-5 {
+    /* さとう */
+width: 36px;
+height: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.text-6 {
+    /* あゆみ */
+width: 36px;
+height: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.block-1 {
+    display: flex;
+}
+.text-7 {
+    /* 佐藤 */
+width: 56px;
+height: 39px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-8 {
+    /* あゆみ */
+width: 84px;
+height: 39px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.group-2 {
+    /* Group 135 */
+
+
+position: absolute;
+width: 630px;
+height: 51px;
+top: 70px;
+bottom: ;
+right: ;
+left: ;
+}
+
+.text-9 {
+    /* メールアドレス */
+width: 84px;
+height: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-10 {
+    /* tototototo,mmmm013125@byouin/com */
+width: 284px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.line {
+    /* Line 5 */
+width: 630px;
+height: 0px;
+border: 1px dashed #E9E9E9;
+}
+
+.group-3 {
+    /* Group 179 */
+
+
+position: absolute;
+width: 88px;
+height: 22px;
+top: 160px;
+bottom: ;
+right: ;
+left: 0px;
+display: flex;
+}
+
+.rectangle {
+    /* Rectangle 3 */
+width: 8px;
+height: 20px;
+margin-top: ;
+margin-bottom: ;
+margin-right: 10px;
+margin-left: ;
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 4px;
+}
+
+.text-11 {
+    /* 病院情報 */
+width: 64px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-12 {
+    /* しんでん耳鼻咽喉科医院 */
+
+
+position: absolute;
+width: 263px;
+height: 34px;
+top: 200px;
+bottom: ;
+right: ;
+left: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.group-4 {
+    /* Group 141 */
+
+
+position: absolute;
+width: 56px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 0px;
+}
+
+.frame-6 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 56px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-13 {
+    /* 内科 */
+
+
+width: 24px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-5 {
+    /* Group 1048 */
+
+
+position: absolute;
+width: 68px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 70px;
+}
+
+.frame-7 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 68px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-14 {
+    /* 小児科 */
+
+
+width: 36px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-6 {
+    /* Group 1052 */
+
+
+position: absolute;
+width: 56px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 150px;
+}
+
+.frame-8 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 56px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-15 {
+    /* 内科 */
+
+
+width: 24px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-7 {
+    /* Group 1053 */
+
+
+position: absolute;
+width: 68px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 220px;
+}
+
+.frame-9 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 68px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-16 {
+    /* 小児科 */
+
+
+width: 36px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-8 {
+    /* Group 1054 */
+
+
+position: absolute;
+width: 56px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 300px;
+}
+
+.frame-10 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 56px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-17 {
+    /* 内科 */
+
+
+width: 24px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-9 {
+    /* Group 1055 */
+
+
+position: absolute;
+width: 68px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 380px;
+}
+
+.frame-11 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 68px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-18 {
+    /* 小児科 */
+
+
+width: 36px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-10 {
+    /* Group 1056 */
+
+
+position: absolute;
+width: 56px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 470px;
+}
+
+.frame-12 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 56px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-19 {
+    /* 内科 */
+
+
+width: 24px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-11 {
+    /* Group 1057 */
+
+
+position: absolute;
+width: 68px;
+height: 25px;
+top: 240px;
+bottom: ;
+right: ;
+left: 540px;
+}
+
+.frame-13 {
+    /* Frame 46 */
+
+
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 10px;
+width: 68px;
+height: 25px;
+background: #FFFFFF;
+border: 1px solid #E9E9E9;
+border-radius: 8px;
+}
+
+.text-20 {
+    /* 小児科 */
+
+
+width: 36px;
+height: 17px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-12 {
+    /* Group 138 */
+
+
+position: absolute;
+width: 307px;
+height: 51px;
+top: 290px;
+bottom: ;
+right: ;
+left: 0px;
+}
+
+.text-20 {
+    /* 代表電話 */
+width: 48px;
+height: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-21 {
+    /* 03-0000-0000 */
+width: 99px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #1966CC;
+}
+
+.line-1 {
+    /* Line 5 */
+width: 307px;
+height: 0px;
+border: 1px dashed #E9E9E9;
+}
+
+.group-13 {
+    /* Group 1050 */
+
+
+position: absolute;
+width: 307px;
+height: 51px;
+top: 290px;
+bottom: ;
+right: ;
+left: 320px;
+}
+
+.text-22 {
+    /* FAX */
+width: 22px;
+height: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-23 {
+    /* 03-0000-0000 */
+width: 99px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #1966CC;
+}
+
+.line-2 {
+    /* Line 5 */
+width: 307px;
+height: 0px;
+border: 1px dashed #E9E9E9;
+}
+
+.group-14 {
+    /* Group 1051 */
+
+
+position: absolute;
+width: 329px;
+height: 43px;
+top: 360px;
+bottom: ;
+right: ;
+left: 0px;
+}
+
+.text-24 {
+    /* 住所・Map */
+width: 60px;
+height: 17px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 140%;
+/* identical to box height, or 17px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-25 {
+    /* 〒134-0088 東京都江戸川区西葛西8丁目12-17 */
+width: 329px;
+height: 22px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.map {
+    /* image 29 */
+
+
+position: absolute;
+width: 630px;
+height: 121px;
+top: 410px;
+bottom: ;
+right: ;
+left: 0px;
+background: url(image.png);
+border-radius: 4px;
+}
